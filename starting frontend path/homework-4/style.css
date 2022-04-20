@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+
+body{
+    background-color: #1C2026;
+    font-family: 'Dosis', sans-serif;
+}
+
+.header{
+    background-color: #3D4ACB;
+    position: sticky;
+    padding: 20px;
+    text-align: center;
+}
+
+.headerText{
+    color: #E5E5E5;
+    margin-right: 40px !important;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+.headerText:hover{
+    color: #ff5e00;
+    transition: 500ms all;
+}
+
+.headerText:nth-child(4){
+    margin-right: 0px !important;
+}
+
+
+.container{
+    opacity: .7;
+    width: 100%;
+    height: 855px;
+    background-image: url("https://media.istockphoto.com/photos/top-view-of-white-bedding-sheets-after-wake-up-in-the-morning-texture-picture-id901221450?k=20&m=901221450&s=170667a&w=0&h=SvgD-14sqKH3EbPyKnK15-_rw63xiYiUYM7Es-hdB6w=");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subTitle{
+    font-size: 24px !important;
+}
+.title{
+    opacity: 1 !important;
+    color: rgb(0, 0, 0);
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+.area{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+.title2{
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.innerArea{
+    background-color: #565C6A;
+    width: 25%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 20px
+}
+.lastArea{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    background-color: #ECE0D0;
+}
+.one{
+    color:rgb(0, 0, 0);
+    font-size: 28px;
+    text-align: center;
+}
+.two{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    background-image: url('https://images.unsplash.com/photo-1457298483369-0a95d2b17fcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1208&q=80');
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.serviceContent{
+    width: 40%;
+    height: 75%;
+    margin: 0 auto;
+    background-color: #565c6a9f;
+    border-radius: 20px;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    height: 400px;
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 75%;
+    border-radius: 20px 0 20px 20px;
+    border: 2px solid #3D4ACB;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.footerLinks{
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.right ul{
+    background-color: #3D4ACB;
+    padding: 50px;
+    border-radius: 20px 0 20px 20px;
+}
+
+.right ul li{
+    
+    margin-bottom: 10px;
+}
